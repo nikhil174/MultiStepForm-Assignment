@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(39, 38, 38, 0.222);
+  padding: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 20px 20px 44px #d1d1d1, -20px -20px 44px #ffffff;
+}
+.form__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  margin: 20px;
+}
+.container button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 8px;
+}
+button:hover {
+  background-color: black;
+}
